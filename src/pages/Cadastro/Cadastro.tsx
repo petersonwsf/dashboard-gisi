@@ -10,6 +10,7 @@ interface Funcionario {
     setor?: string;
     escolaridade?: string;
     sexo?: string;
+    dataAdmissao?: string;
 }
 
 export function Cadastro() {
@@ -17,10 +18,13 @@ export function Cadastro() {
     const [funcionario, setFuncionario] = useState<Funcionario>({})
 
     async function submitForm() {
-        console.log(funcionario)
-        return
-        const response = await api.post('/funcionarios', funcionario)
-        console.log(response.data)
+        try {
+            await api.post('/funcionarios', funcionario)
+            setFuncionario({})
+            alert('Funcionário cadastrado com sucesso!')
+        } catch (err) {
+            alert("Erro ao cadastrar funcionário")
+        }
     }
 
     return (
@@ -32,11 +36,11 @@ export function Cadastro() {
             }}>
                 <div className="my-4">
                     <h6>Nome</h6>
-                    <input type="text" className="form-control" name="nome" id="nome" onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} placeholder="Nome do funcionário" />
+                    <input type="text" value={funcionario.nome ?? ''} className="form-control" name="nome" id="nome" onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} placeholder="Nome do funcionário" />
                 </div>
                 <div className="my-4">
                     <h6>Setor</h6>
-                    <select name="setor" className="form-select" onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} aria-label="Default select example">
+                    <select name="setor" className="form-select" value={funcionario.setor ?? ''} onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} aria-label="Default select example">
                         {SETORES.map(setor => (
                             <option value={setor.nome}>{setor.nome}</option>
                         ))}
@@ -44,7 +48,7 @@ export function Cadastro() {
                 </div>
                 <div className="my-4">
                     <h6>Cargo</h6>
-                    <select className="form-select" onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} name="cargo" aria-label="Default select example">
+                    <select className="form-select" value={funcionario.cargo ?? ''} onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} name="cargo" aria-label="Default select example">
                         {CARGOS.map(cargo => (
                             <option value={cargo.nome}>{cargo.nome}</option>
                         ))}
@@ -74,8 +78,18 @@ export function Cadastro() {
                     </div>
                 </div>
                 <div className="my-4">
+                    <h6>Data de Admissão</h6>
+                    <input 
+                        type="date" 
+                        name="dataAdmissao" 
+                        className="form-control" 
+                        onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} 
+                        value={funcionario.dataAdmissao || ''}
+                    />
+                </div>
+                <div className="my-4">
                     <h6>Escolaridade</h6>
-                    <select name="escolaridade" onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} className="form-select" aria-label="Default select example">
+                    <select name="escolaridade" value={funcionario.escolaridade ?? ''} onChange={(e) => setFuncionario({...funcionario, [e.target.name] : e.target.value})} className="form-select" aria-label="Default select example">
                         {ESCOLARIDADE.map(escolaridade => (
                             <option value={escolaridade.nome}>{escolaridade.nome}</option>
                         ))}

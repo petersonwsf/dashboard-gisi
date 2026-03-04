@@ -5,6 +5,7 @@ import { Container } from './components/layout/Container/Container'
 
 import { Routes, Route } from 'react-router-dom'
 import { Cadastro } from './pages/Cadastro/Cadastro'
+import { Funcionarios } from './pages/Funcionarios/Funcionarios'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <Container>
         <Routes>
-          <Route path='/' element={<Cadastro />} />
+          <Route path='/' element={<Funcionarios />} />
+          <Route path="/cadastro" element={<Cadastro />} />
         </Routes>
       </Container>
     </>

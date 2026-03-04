@@ -1,13 +1,204 @@
 {
   "funcionarios": [
     {
-      "id": "7e8d",
-      "nome": "Peterson",
-      "setor": "Tecnologia da Informação",
+      "id": "1",
+      "nome": "Ana Silva",
+      "salario": 4500.5,
       "cargo": "Analista",
-      "salario": "15000",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-03-15"
+    },
+    {
+      "id": "2",
+      "nome": "Bruno Oliveira",
+      "salario": 2800.0,
+      "cargo": "Auxiliar",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
       "sexo": "Masculino",
-      "escolaridade": "Ensino Superior Incompleto"
+      "dataAdmissao": "2022-05-10"
+    },
+    {
+      "id": "3",
+      "nome": "Carla Souza",
+      "salario": 8900.0,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-11-20"
+    },
+    {
+      "id": "4",
+      "nome": "Diego Martins",
+      "salario": 5200.0,
+      "cargo": "Coordenador",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-08-01"
+    },
+    {
+      "id": "5",
+      "nome": "Elena Ramos",
+      "salario": 3100.25,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-01-12"
+    },
+    {
+      "id": "6",
+      "nome": "Fabio Junior",
+      "salario": 12000.0,
+      "cargo": "Diretor",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-06-30"
+    },
+    {
+      "id": "7",
+      "nome": "Gabriela Lima",
+      "salario": 2100.0,
+      "cargo": "Auxiliar",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-09-15"
+    },
+    {
+      "id": "8",
+      "nome": "Humberto Feliciano",
+      "salario": 3800.0,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-12-01"
+    },
+    {
+      "id": "9",
+      "nome": "Isabela Rocha",
+      "salario": 4200.0,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-02-28"
+    },
+    {
+      "id": "10",
+      "nome": "João Pedro Santos",
+      "salario": 1900.0,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-10"
+    },
+    {
+      "id": "11",
+      "nome": "Karina Amaral",
+      "salario": 7500.0,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-04-20"
+    },
+    {
+      "id": "12",
+      "nome": "Leonardo Vitor",
+      "salario": 9500.0,
+      "cargo": "Gerente",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-03-12"
+    },
+    {
+      "id": "13",
+      "nome": "Mariana Peixoto",
+      "salario": 3300.5,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-08-22"
+    },
+    {
+      "id": "14",
+      "nome": "Natan Oliveira",
+      "salario": 2600.0,
+      "cargo": "Auxiliar",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-11-05"
+    },
+    {
+      "id": "15",
+      "nome": "Olívia Castro",
+      "salario": 15000.0,
+      "cargo": "Diretor",
+      "setor": "Financeiro",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-01-20"
+    },
+    {
+      "id": "16",
+      "nome": "Paulo André",
+      "salario": 4800.0,
+      "cargo": "Analista",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-07-08"
+    },
+    {
+      "id": "17",
+      "nome": "Raquel Diniz",
+      "salario": 5100.0,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-10-30"
+    },
+    {
+      "id": "18",
+      "nome": "Samuel Guerra",
+      "salario": 2900.0,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-12-14"
+    },
+    {
+      "id": "19",
+      "nome": "Tatiana Mello",
+      "salario": 6200.0,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-02-11"
+    },
+    {
+      "id": "20",
+      "nome": "Vitor Hugo",
+      "salario": 3500.0,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-04-18"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
