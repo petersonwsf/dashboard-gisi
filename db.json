@@ -1,0 +1,14 @@
+{
+  "funcionarios": [
+    {
+      "id": "7e8d",
+      "nome": "Peterson",
+      "setor": "Tecnologia da Informação",
+      "cargo": "Analista",
+      "salario": "15000",
+      "sexo": "Masculino",
+      "escolaridade": "Ensino Superior Incompleto"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
