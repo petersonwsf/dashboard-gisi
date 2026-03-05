@@ -11,9 +11,29 @@
       "dataAdmissao": "2021-03-15"
     },
     {
+      "id": "201",
+      "nome": "Joaninha Alcântara",
+      "salario": 5200,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-06-10"
+    },
+    {
+      "id": "19",
+      "nome": "Maria Eduarda Santos",
+      "salario": 3850.75,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-01-20"
+    },
+    {
       "id": "2",
       "nome": "Bruno Oliveira",
-      "salario": 2800.0,
+      "salario": 2800,
       "cargo": "Auxiliar",
       "setor": "Recursos Humanos",
       "escolaridade": "Ensino Médio Completo",
@@ -23,7 +43,7 @@
     {
       "id": "3",
       "nome": "Carla Souza",
-      "salario": 8900.0,
+      "salario": 8900,
       "cargo": "Gerente",
       "setor": "Financeiro",
       "escolaridade": "Pós-graduação / Especialização",
@@ -33,7 +53,7 @@
     {
       "id": "4",
       "nome": "Diego Martins",
-      "salario": 5200.0,
+      "salario": 5200,
       "cargo": "Coordenador",
       "setor": "Operacional",
       "escolaridade": "Ensino Superior Completo",
@@ -53,7 +73,7 @@
     {
       "id": "6",
       "nome": "Fabio Junior",
-      "salario": 12000.0,
+      "salario": 12000,
       "cargo": "Diretor",
       "setor": "Tecnologia da Informação",
       "escolaridade": "Mestrado",
@@ -63,7 +83,7 @@
     {
       "id": "7",
       "nome": "Gabriela Lima",
-      "salario": 2100.0,
+      "salario": 2100,
       "cargo": "Auxiliar",
       "setor": "Financeiro",
       "escolaridade": "Ensino Médio Completo",
@@ -73,7 +93,7 @@
     {
       "id": "8",
       "nome": "Humberto Feliciano",
-      "salario": 3800.0,
+      "salario": 3800,
       "cargo": "Analista",
       "setor": "Comercial",
       "escolaridade": "Ensino Superior Completo",
@@ -83,7 +103,7 @@
     {
       "id": "9",
       "nome": "Isabela Rocha",
-      "salario": 4200.0,
+      "salario": 4200,
       "cargo": "Analista",
       "setor": "Recursos Humanos",
       "escolaridade": "Ensino Superior Completo",
@@ -93,7 +113,7 @@
     {
       "id": "10",
       "nome": "João Pedro Santos",
-      "salario": 1900.0,
+      "salario": 1900,
       "cargo": "Auxiliar",
       "setor": "Operacional",
       "escolaridade": "Ensino Médio Incompleto",
@@ -103,7 +123,7 @@
     {
       "id": "11",
       "nome": "Karina Amaral",
-      "salario": 7500.0,
+      "salario": 7500,
       "cargo": "Coordenador",
       "setor": "Tecnologia da Informação",
       "escolaridade": "Pós-graduação / Especialização",
@@ -113,7 +133,7 @@
     {
       "id": "12",
       "nome": "Leonardo Vitor",
-      "salario": 9500.0,
+      "salario": 9500,
       "cargo": "Gerente",
       "setor": "Comercial",
       "escolaridade": "Ensino Superior Completo",
@@ -133,7 +153,7 @@
     {
       "id": "14",
       "nome": "Natan Oliveira",
-      "salario": 2600.0,
+      "salario": 2600,
       "cargo": "Auxiliar",
       "setor": "Tecnologia da Informação",
       "escolaridade": "Ensino Médio Completo",
@@ -143,7 +163,7 @@
     {
       "id": "15",
       "nome": "Olívia Castro",
-      "salario": 15000.0,
+      "salario": 15000,
       "cargo": "Diretor",
       "setor": "Financeiro",
       "escolaridade": "Doutorado",
@@ -153,7 +173,7 @@
     {
       "id": "16",
       "nome": "Paulo André",
-      "salario": 4800.0,
+      "salario": 4800,
       "cargo": "Analista",
       "setor": "Operacional",
       "escolaridade": "Ensino Superior Incompleto",
@@ -163,7 +183,7 @@
     {
       "id": "17",
       "nome": "Raquel Diniz",
-      "salario": 5100.0,
+      "salario": 5100,
       "cargo": "Coordenador",
       "setor": "Recursos Humanos",
       "escolaridade": "Ensino Superior Completo",
@@ -173,7 +193,7 @@
     {
       "id": "18",
       "nome": "Samuel Guerra",
-      "salario": 2900.0,
+      "salario": 2900,
       "cargo": "Auxiliar",
       "setor": "Comercial",
       "escolaridade": "Ensino Médio Completo",
@@ -183,7 +203,7 @@
     {
       "id": "19",
       "nome": "Tatiana Mello",
-      "salario": 6200.0,
+      "salario": 6200,
       "cargo": "Analista",
       "setor": "Tecnologia da Informação",
       "escolaridade": "Mestrado",
@@ -193,12 +213,1822 @@
     {
       "id": "20",
       "nome": "Vitor Hugo",
-      "salario": 3500.0,
+      "salario": 3500,
       "cargo": "Analista",
       "setor": "Financeiro",
       "escolaridade": "Ensino Superior Completo",
       "sexo": "Masculino",
       "dataAdmissao": "2023-04-18"
+    },
+    {
+      "id": "21",
+      "nome": "Renata Barros",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-09-14"
+    },
+    {
+      "id": "22",
+      "nome": "Carlos Henrique",
+      "salario": 2700,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-03-02"
+    },
+    {
+      "id": "23",
+      "nome": "Juliana Freitas",
+      "salario": 5600,
+      "cargo": "Coordenador",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-05-19"
+    },
+    {
+      "id": "24",
+      "nome": "Eduardo Cavalcante",
+      "salario": 8700,
+      "cargo": "Gerente",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-08-11"
+    },
+    {
+      "id": "25",
+      "nome": "Patrícia Gomes",
+      "salario": 3400,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-07-06"
+    },
+    {
+      "id": "26",
+      "nome": "Ricardo Batista",
+      "salario": 2950,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-10-18"
+    },
+    {
+      "id": "27",
+      "nome": "Fernanda Torres",
+      "salario": 4700,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-12-05"
+    },
+    {
+      "id": "28",
+      "nome": "Lucas Andrade",
+      "salario": 6200,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-03-28"
+    },
+    {
+      "id": "29",
+      "nome": "Amanda Ribeiro",
+      "salario": 3800,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-04-17"
+    },
+    {
+      "id": "30",
+      "nome": "Daniel Moura",
+      "salario": 9800,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-11-23"
+    },
+    {
+      "id": "31",
+      "nome": "Beatriz Nogueira",
+      "salario": 2100,
+      "cargo": "Auxiliar",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2024-02-15"
+    },
+    {
+      "id": "32",
+      "nome": "Roberto Farias",
+      "salario": 12500,
+      "cargo": "Diretor",
+      "setor": "Comercial",
+      "escolaridade": "Doutorado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2017-09-30"
+    },
+    {
+      "id": "33",
+      "nome": "Larissa Campos",
+      "salario": 4400,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-01-10"
+    },
+    {
+      "id": "34",
+      "nome": "Gustavo Almeida",
+      "salario": 3100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-06-21"
+    },
+    {
+      "id": "35",
+      "nome": "Natália Duarte",
+      "salario": 5400,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-07-09"
+    },
+    {
+      "id": "36",
+      "nome": "Thiago Medeiros",
+      "salario": 3200,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-03-14"
+    },
+    {
+      "id": "37",
+      "nome": "Camila Borges",
+      "salario": 4600,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-09-05"
+    },
+    {
+      "id": "38",
+      "nome": "Rodrigo Figueiredo",
+      "salario": 2800,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-04-11"
+    },
+    {
+      "id": "39",
+      "nome": "Priscila Tavares",
+      "salario": 5200,
+      "cargo": "Coordenador",
+      "setor": "Financeiro",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-12-20"
+    },
+    {
+      "id": "40",
+      "nome": "Marcelo Antunes",
+      "salario": 7300,
+      "cargo": "Gerente",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-02-18"
+    },
+    {
+      "id": "41",
+      "nome": "Vanessa Correia",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-06-27"
+    },
+    {
+      "id": "42",
+      "nome": "Igor Martins",
+      "salario": 2500,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-08-01"
+    },
+    {
+      "id": "43",
+      "nome": "Tatiane Alves",
+      "salario": 4100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-10-09"
+    },
+    {
+      "id": "44",
+      "nome": "Felipe Guedes",
+      "salario": 8700,
+      "cargo": "Gerente",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-06-13"
+    },
+    {
+      "id": "45",
+      "nome": "Lorena Azevedo",
+      "salario": 3600,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-11-29"
+    },
+    {
+      "id": "46",
+      "nome": "André Pacheco",
+      "salario": 4800,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-05-17"
+    },
+    {
+      "id": "47",
+      "nome": "Juliana Matos",
+      "salario": 3000,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-01-30"
+    },
+    {
+      "id": "48",
+      "nome": "Sérgio Paiva",
+      "salario": 11000,
+      "cargo": "Diretor",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-07-22"
+    },
+    {
+      "id": "49",
+      "nome": "Débora Falcão",
+      "salario": 4200,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-04-02"
+    },
+    {
+      "id": "50",
+      "nome": "Henrique Barros",
+      "salario": 2700,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-02-03"
+    },
+    {
+      "id": "51",
+      "nome": "Eduarda Nascimento",
+      "salario": 3700,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-04-19"
+    },
+    {
+      "id": "52",
+      "nome": "Rafael Teixeira",
+      "salario": 2600,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-02-07"
+    },
+    {
+      "id": "53",
+      "nome": "Bianca Monteiro",
+      "salario": 5400,
+      "cargo": "Coordenador",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-10-10"
+    },
+    {
+      "id": "54",
+      "nome": "Fernando Albuquerque",
+      "salario": 8900,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-01-28"
+    },
+    {
+      "id": "55",
+      "nome": "Cláudia Freire",
+      "salario": 3300,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-07-16"
+    },
+    {
+      "id": "56",
+      "nome": "Pedro Henrique Costa",
+      "salario": 4700,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-09-02"
+    },
+    {
+      "id": "57",
+      "nome": "Larissa Nunes",
+      "salario": 3500,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-11-11"
+    },
+    {
+      "id": "58",
+      "nome": "Alex Sandro Vieira",
+      "salario": 2900,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-05-25"
+    },
+    {
+      "id": "59",
+      "nome": "Michele Batista",
+      "salario": 4300,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-06-08"
+    },
+    {
+      "id": "60",
+      "nome": "Otávio Andrade",
+      "salario": 7200,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-03-03"
+    },
+    {
+      "id": "61",
+      "nome": "Caroline Ribeiro",
+      "salario": 2500,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2024-01-22"
+    },
+    {
+      "id": "62",
+      "nome": "Maurício Freitas",
+      "salario": 9600,
+      "cargo": "Gerente",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-12-14"
+    },
+    {
+      "id": "63",
+      "nome": "Daniela Rocha",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-03-30"
+    },
+    {
+      "id": "64",
+      "nome": "Lucas Santana",
+      "salario": 11500,
+      "cargo": "Diretor",
+      "setor": "Marketing",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-05-05"
+    },
+    {
+      "id": "65",
+      "nome": "Patrícia Almeida",
+      "salario": 3800,
+      "cargo": "Assistente Administrativo",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-09-12"
+    },
+    {
+      "id": "66",
+      "nome": "Amanda Cardoso",
+      "salario": 4200,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-02-14"
+    },
+    {
+      "id": "67",
+      "nome": "Bruna Teixeira",
+      "salario": 2600,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-04-01"
+    },
+    {
+      "id": "68",
+      "nome": "Camila Albuquerque",
+      "salario": 5300,
+      "cargo": "Coordenador",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-07-18"
+    },
+    {
+      "id": "69",
+      "nome": "Daniela Costa",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-05-10"
+    },
+    {
+      "id": "70",
+      "nome": "Elaine Santos",
+      "salario": 3200,
+      "cargo": "Assistente Administrativo",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-01-26"
+    },
+    {
+      "id": "71",
+      "nome": "Fernanda Nogueira",
+      "salario": 4700,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-11-08"
+    },
+    {
+      "id": "72",
+      "nome": "Gabriela Farias",
+      "salario": 3500,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-09-03"
+    },
+    {
+      "id": "73",
+      "nome": "Helena Ribeiro",
+      "salario": 2800,
+      "cargo": "Auxiliar",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-06-12"
+    },
+    {
+      "id": "74",
+      "nome": "Isadora Martins",
+      "salario": 6100,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-10-27"
+    },
+    {
+      "id": "75",
+      "nome": "Juliana Duarte",
+      "salario": 8400,
+      "cargo": "Gerente",
+      "setor": "Comercial",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-04-15"
+    },
+    {
+      "id": "76",
+      "nome": "Karina Barros",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-08-19"
+    },
+    {
+      "id": "77",
+      "nome": "Larissa Carvalho",
+      "salario": 2900,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2024-01-05"
+    },
+    {
+      "id": "78",
+      "nome": "Mariana Teodoro",
+      "salario": 11200,
+      "cargo": "Diretor",
+      "setor": "Financeiro",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-03-21"
+    },
+    {
+      "id": "79",
+      "nome": "Natália Andrade",
+      "salario": 4300,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-12-09"
+    },
+    {
+      "id": "80",
+      "nome": "Olívia Freitas",
+      "salario": 3300,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-03-17"
+    },
+    {
+      "id": "81",
+      "nome": "Paula Menezes",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-02-02"
+    },
+    {
+      "id": "82",
+      "nome": "Rafaela Batista",
+      "salario": 3000,
+      "cargo": "Assistente Administrativo",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-05-09"
+    },
+    {
+      "id": "83",
+      "nome": "Simone Albuquerque",
+      "salario": 5200,
+      "cargo": "Coordenador",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-01-14"
+    },
+    {
+      "id": "84",
+      "nome": "Tatiane Nascimento",
+      "salario": 2700,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-07-20"
+    },
+    {
+      "id": "85",
+      "nome": "Valéria Rocha",
+      "salario": 4500,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-10-03"
+    },
+    {
+      "id": "86",
+      "nome": "Yasmin Ferreira",
+      "salario": 3500,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-09-11"
+    },
+    {
+      "id": "87",
+      "nome": "Vanessa Guimarães",
+      "salario": 6200,
+      "cargo": "Coordenador",
+      "setor": "Financeiro",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-12-06"
+    },
+    {
+      "id": "88",
+      "nome": "Cíntia Moura",
+      "salario": 3800,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-04-18"
+    },
+    {
+      "id": "89",
+      "nome": "Daniele Barros",
+      "salario": 2950,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-03-03"
+    },
+    {
+      "id": "90",
+      "nome": "Elisa Duarte",
+      "salario": 7800,
+      "cargo": "Gerente",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-09-17"
+    },
+    {
+      "id": "91",
+      "nome": "Fabiana Ribeiro",
+      "salario": 4200,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-06-28"
+    },
+    {
+      "id": "92",
+      "nome": "Giovana Lopes",
+      "salario": 3100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-08-12"
+    },
+    {
+      "id": "93",
+      "nome": "Heloisa Cardoso",
+      "salario": 4600,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-01-25"
+    },
+    {
+      "id": "94",
+      "nome": "Ivana Falcão",
+      "salario": 11800,
+      "cargo": "Diretor",
+      "setor": "Marketing",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-06-04"
+    },
+    {
+      "id": "95",
+      "nome": "Joana Azevedo",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-11-15"
+    },
+    {
+      "id": "96",
+      "nome": "Aline Queiroz",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-03-14"
+    },
+    {
+      "id": "97",
+      "nome": "Bruno Carvalho",
+      "salario": 2600,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-04-02"
+    },
+    {
+      "id": "98",
+      "nome": "Camila Prado",
+      "salario": 5400,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-08-11"
+    },
+    {
+      "id": "99",
+      "nome": "Diego Lopes",
+      "salario": 9100,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-06-21"
+    },
+    {
+      "id": "100",
+      "nome": "Elaine Duarte",
+      "salario": 3300,
+      "cargo": "Assistente Administrativo",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-02-15"
+    },
+    {
+      "id": "101",
+      "nome": "Felipe Torres",
+      "salario": 4700,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-09-18"
+    },
+    {
+      "id": "102",
+      "nome": "Gabriela Mendes",
+      "salario": 3500,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-07-03"
+    },
+    {
+      "id": "103",
+      "nome": "Henrique Ramos",
+      "salario": 2800,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-09"
+    },
+    {
+      "id": "104",
+      "nome": "Isabela Freitas",
+      "salario": 4300,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-05-29"
+    },
+    {
+      "id": "105",
+      "nome": "João Victor",
+      "salario": 6000,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-10-05"
+    },
+    {
+      "id": "106",
+      "nome": "Karina Teixeira",
+      "salario": 3800,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-01-14"
+    },
+    {
+      "id": "107",
+      "nome": "Leonardo Santana",
+      "salario": 2950,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-06-10"
+    },
+    {
+      "id": "108",
+      "nome": "Mariana Barros",
+      "salario": 7600,
+      "cargo": "Gerente",
+      "setor": "Marketing",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-03-02"
+    },
+    {
+      "id": "109",
+      "nome": "Natan Silva",
+      "salario": 3100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-08-21"
+    },
+    {
+      "id": "110",
+      "nome": "Olivia Batista",
+      "salario": 4200,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-12-12"
+    },
+    {
+      "id": "111",
+      "nome": "Paulo Henrique",
+      "salario": 11200,
+      "cargo": "Diretor",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-07-30"
+    },
+    {
+      "id": "112",
+      "nome": "Renata Moura",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-04-18"
+    },
+    {
+      "id": "113",
+      "nome": "Samuel Andrade",
+      "salario": 2700,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-10-11"
+    },
+    {
+      "id": "114",
+      "nome": "Tatiana Rocha",
+      "salario": 4600,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-06-06"
+    },
+    {
+      "id": "115",
+      "nome": "Victor Almeida",
+      "salario": 5400,
+      "cargo": "Coordenador",
+      "setor": "Financeiro",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-11-09"
+    },
+    {
+      "id": "116",
+      "nome": "Yasmin Lopes",
+      "salario": 3400,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-09-27"
+    },
+    {
+      "id": "117",
+      "nome": "André Freire",
+      "salario": 3000,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-01-17"
+    },
+    {
+      "id": "118",
+      "nome": "Beatriz Campos",
+      "salario": 4400,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-06-13"
+    },
+    {
+      "id": "119",
+      "nome": "Carlos Eduardo",
+      "salario": 8500,
+      "cargo": "Gerente",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-10-23"
+    },
+    {
+      "id": "120",
+      "nome": "Débora Farias",
+      "salario": 3700,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-05-19"
+    },
+    {
+      "id": "121",
+      "nome": "Eduarda Torres",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-03-11"
+    },
+    {
+      "id": "122",
+      "nome": "Fernando Guedes",
+      "salario": 2750,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-02-18"
+    },
+    {
+      "id": "123",
+      "nome": "Giovana Prado",
+      "salario": 5200,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-06-05"
+    },
+    {
+      "id": "124",
+      "nome": "Hugo Martins",
+      "salario": 9100,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-04-17"
+    },
+    {
+      "id": "125",
+      "nome": "Isadora Falcão",
+      "salario": 3300,
+      "cargo": "Assistente Administrativo",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-01-22"
+    },
+    {
+      "id": "126",
+      "nome": "João Pedro Freitas",
+      "salario": 4600,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-09-01"
+    },
+    {
+      "id": "127",
+      "nome": "Karine Duarte",
+      "salario": 3600,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-08-15"
+    },
+    {
+      "id": "128",
+      "nome": "Lucas Nascimento",
+      "salario": 2900,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-04"
+    },
+    {
+      "id": "129",
+      "nome": "Marina Andrade",
+      "salario": 4300,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-05-12"
+    },
+    {
+      "id": "130",
+      "nome": "Nicolas Batista",
+      "salario": 6200,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-09-08"
+    },
+    {
+      "id": "131",
+      "nome": "Olga Menezes",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-11-19"
+    },
+    {
+      "id": "132",
+      "nome": "Paulo César",
+      "salario": 2800,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-07-28"
+    },
+    {
+      "id": "133",
+      "nome": "Renata Guimarães",
+      "salario": 7800,
+      "cargo": "Gerente",
+      "setor": "Marketing",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-02-10"
+    },
+    {
+      "id": "134",
+      "nome": "Sérgio Carvalho",
+      "salario": 3100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-06-06"
+    },
+    {
+      "id": "135",
+      "nome": "Tatiane Lopes",
+      "salario": 4200,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-12-01"
+    },
+    {
+      "id": "136",
+      "nome": "Ulisses Rocha",
+      "salario": 11200,
+      "cargo": "Diretor",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-08-14"
+    },
+    {
+      "id": "137",
+      "nome": "Vanessa Freire",
+      "salario": 4000,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-04-03"
+    },
+    {
+      "id": "138",
+      "nome": "Wesley Pacheco",
+      "salario": 2600,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-10-19"
+    },
+    {
+      "id": "139",
+      "nome": "Yara Teixeira",
+      "salario": 4500,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-05-16"
+    },
+    {
+      "id": "140",
+      "nome": "Anderson Farias",
+      "salario": 5400,
+      "cargo": "Coordenador",
+      "setor": "Financeiro",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-10-27"
+    },
+    {
+      "id": "141",
+      "nome": "Beatriz Viana",
+      "salario": 5400,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-08-12"
+    },
+    {
+      "id": "142",
+      "nome": "Thiago Alencar",
+      "salario": 4200.5,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-11-30"
+    },
+    {
+      "id": "143",
+      "nome": "Luciana Prates",
+      "salario": 16500,
+      "cargo": "Diretor",
+      "setor": "Operacional",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-03-15"
+    },
+    {
+      "id": "144",
+      "nome": "Marcos Garrido",
+      "salario": 2100,
+      "cargo": "Auxiliar",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-10-05"
+    },
+    {
+      "id": "145",
+      "nome": "Fernanda Montenegro",
+      "salario": 7200,
+      "cargo": "Coordenador",
+      "setor": "Comercial",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-01-25"
+    },
+    {
+      "id": "146",
+      "nome": "Gustavo Rossi",
+      "salario": 3500,
+      "cargo": "Assistente Administrativo",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-04-18"
+    },
+    {
+      "id": "147",
+      "nome": "Camila Guimarães",
+      "salario": 4800.75,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-07-10"
+    },
+    {
+      "id": "148",
+      "nome": "Renato Augusto",
+      "salario": 1950,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-02-01"
+    },
+    {
+      "id": "149",
+      "nome": "Patrícia Abravanel",
+      "salario": 11000,
+      "cargo": "Gerente",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-12-14"
+    },
+    {
+      "id": "150",
+      "nome": "André Souza",
+      "salario": 4600,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-04-10"
+    },
+    {
+      "id": "151",
+      "nome": "Juliana Paes",
+      "salario": 12500,
+      "cargo": "Diretor",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-09-22"
+    },
+    {
+      "id": "152",
+      "nome": "Felipe Neto",
+      "salario": 3200,
+      "cargo": "Assistente Administrativo",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-11-05"
+    },
+    {
+      "id": "153",
+      "nome": "Larissa Manoela",
+      "salario": 5100,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-02-15"
+    },
+    {
+      "id": "154",
+      "nome": "Rodrigo Faro",
+      "salario": 8900,
+      "cargo": "Gerente",
+      "setor": "Operacional",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-07-30"
+    },
+    {
+      "id": "155",
+      "nome": "Sabrina Sato",
+      "salario": 7400,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-05-12"
+    },
+    {
+      "id": "156",
+      "nome": "Caio Castro",
+      "salario": 2300,
+      "cargo": "Auxiliar",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-08-19"
+    },
+    {
+      "id": "157",
+      "nome": "Grazi Massafera",
+      "salario": 4950,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-03-25"
+    },
+    {
+      "id": "158",
+      "nome": "Lázaro Ramos",
+      "salario": 15800,
+      "cargo": "Diretor",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Doutorado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2017-11-14"
+    },
+    {
+      "id": "159",
+      "nome": "Taís Araújo",
+      "salario": 9200,
+      "cargo": "Gerente",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-10-01"
+    },
+    {
+      "id": "160",
+      "nome": "Igor Coelho",
+      "salario": 3800,
+      "cargo": "Analista",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-06-20"
+    },
+    {
+      "id": "161",
+      "nome": "Bruna Marquezine",
+      "salario": 5500,
+      "cargo": "Coordenador",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-01-10"
+    },
+    {
+      "id": "162",
+      "nome": "Paolla Oliveira",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-09-30"
+    },
+    {
+      "id": "163",
+      "nome": "Cauã Reymond",
+      "salario": 2150,
+      "cargo": "Auxiliar",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-05"
+    },
+    {
+      "id": "164",
+      "nome": "Ivete Sangalo",
+      "salario": 17000,
+      "cargo": "Diretor",
+      "setor": "Comercial",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2016-05-20"
+    },
+    {
+      "id": "165",
+      "nome": "Luan Santana",
+      "salario": 3400,
+      "cargo": "Assistente Administrativo",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-03-12"
+    },
+    {
+      "id": "166",
+      "nome": "Anitta Lopes",
+      "salario": 6800,
+      "cargo": "Designer UI/UX",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-08-25"
+    },
+    {
+      "id": "167",
+      "nome": "Thiaguinho Silva",
+      "salario": 8500,
+      "cargo": "Gerente",
+      "setor": "Marketing",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-02-14"
+    },
+    {
+      "id": "168",
+      "nome": "Maisa Silva",
+      "salario": 2900,
+      "cargo": "Auxiliar",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Médio Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2024-02-28"
+    },
+    {
+      "id": "169",
+      "nome": "Neymar Jr",
+      "salario": 14000,
+      "cargo": "Diretor",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-12-01"
+    },
+    {
+      "id": "170",
+      "nome": "Marta Vieira",
+      "salario": 7100,
+      "cargo": "Coordenador",
+      "setor": "Operacional",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-05-18"
+    },
+    {
+      "id": "171",
+      "nome": "Gabriel Medina",
+      "salario": 3700,
+      "cargo": "Analista",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-10-10"
+    },
+    {
+      "id": "172",
+      "nome": "Rebeca Andrade",
+      "salario": 4300,
+      "cargo": "Analista",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-07-22"
+    },
+    {
+      "id": "173",
+      "nome": "Arthur Aguiar",
+      "salario": 1900,
+      "cargo": "Auxiliar",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Fundamental Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-03-01"
+    },
+    {
+      "id": "174",
+      "nome": "Deborah Secco",
+      "salario": 9600,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-04-05"
+    },
+    {
+      "id": "175",
+      "nome": "Marcos Mion",
+      "salario": 7800,
+      "cargo": "Coordenador",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-09-12"
+    },
+    {
+      "id": "176",
+      "nome": "Fátima Bernardes",
+      "salario": 11500,
+      "cargo": "Gerente",
+      "setor": "Comercial",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-02-28"
+    },
+    {
+      "id": "177",
+      "nome": "William Bonner",
+      "salario": 13000,
+      "cargo": "Diretor",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2017-06-15"
+    },
+    {
+      "id": "178",
+      "nome": "Xuxa Meneghel",
+      "salario": 18000,
+      "cargo": "Diretor",
+      "setor": "Marketing",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2015-10-10"
+    },
+    {
+      "id": "179",
+      "nome": "Gugu Liberato",
+      "salario": 2600,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-12-20"
+    },
+    {
+      "id": "180",
+      "nome": "Luísa Sonza",
+      "salario": 5300,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-05-15"
+    },
+    {
+      "id": "181",
+      "nome": "Whindersson Nunes",
+      "salario": 3100,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-01-20"
+    },
+    {
+      "id": "182",
+      "nome": "Ludmilla Oliveira",
+      "salario": 9400,
+      "cargo": "Gerente",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2019-11-11"
+    },
+    {
+      "id": "183",
+      "nome": "Zeca Pagodinho",
+      "salario": 2200,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-02-10"
+    },
+    {
+      "id": "184",
+      "nome": "Gloria Groove",
+      "salario": 4700,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-09-05"
+    },
+    {
+      "id": "185",
+      "nome": "Djonga Gustavo",
+      "salario": 7600,
+      "cargo": "Coordenador",
+      "setor": "Comercial",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-04-30"
+    },
+    {
+      "id": "186",
+      "nome": "Iza Pesadão",
+      "salario": 14500,
+      "cargo": "Diretor",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2018-07-14"
+    },
+    {
+      "id": "187",
+      "nome": "Emicida Oliveira",
+      "salario": 8800,
+      "cargo": "Gerente",
+      "setor": "Marketing",
+      "escolaridade": "Mestrado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2019-03-22"
+    },
+    {
+      "id": "188",
+      "nome": "Pabllo Vittar",
+      "salario": 5200,
+      "cargo": "Designer UI/UX",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-12-01"
+    },
+    {
+      "id": "189",
+      "nome": "Alok Petrillo",
+      "salario": 10500,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2018-10-18"
+    },
+    {
+      "id": "190",
+      "nome": "Manu Gavassi",
+      "salario": 3900,
+      "cargo": "Analista",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-05-20"
+    },
+    {
+      "id": "191",
+      "nome": "Jão Romão",
+      "salario": 2800,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-11-15"
+    },
+    {
+      "id": "192",
+      "nome": "Liniker de Barros",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-08-08"
+    },
+    {
+      "id": "193",
+      "nome": "Gil do Vigor",
+      "salario": 12000,
+      "cargo": "Diretor",
+      "setor": "Financeiro",
+      "escolaridade": "Doutorado",
+      "sexo": "Masculino",
+      "dataAdmissao": "2021-02-25"
+    },
+    {
+      "id": "194",
+      "nome": "Juliette Freire",
+      "salario": 6900,
+      "cargo": "Coordenador",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-graduação / Especialização",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-06-30"
+    },
+    {
+      "id": "195",
+      "nome": "Felipe Ret",
+      "salario": 3300,
+      "cargo": "Analista",
+      "setor": "Comercial",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-04-12"
+    },
+    {
+      "id": "196",
+      "nome": "Marina Sena",
+      "salario": 4400,
+      "cargo": "Analista",
+      "setor": "Financeiro",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2022-10-05"
+    },
+    {
+      "id": "197",
+      "nome": "Matuê Brasileiro",
+      "salario": 2000,
+      "cargo": "Auxiliar",
+      "setor": "Tecnologia da Informação",
+      "escolaridade": "Ensino Médio Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-20"
+    },
+    {
+      "id": "198",
+      "nome": "Duda Beat",
+      "salario": 5500,
+      "cargo": "Designer UI/UX",
+      "setor": "Marketing",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2021-12-12"
+    },
+    {
+      "id": "199",
+      "nome": "Baco Exu",
+      "salario": 7200,
+      "cargo": "Coordenador",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Superior Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2020-07-28"
+    },
+    {
+      "id": "200",
+      "nome": "Zélia Duncan",
+      "salario": 13800,
+      "cargo": "Diretor",
+      "setor": "Financeiro",
+      "escolaridade": "Mestrado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2017-09-10"
+    },
+    {
+      "id": "92e8",
+      "nome": "Adriana Clericuzi",
+      "setor": "Financeiro",
+      "cargo": "Diretor",
+      "salario": 19999.99,
+      "sexo": "Feminino",
+      "dataAdmissao": "2023-09-10",
+      "escolaridade": "Doutorado"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { api } from "../../config/api/api";
-import { maskCurrency } from "../../utils/maskCurrency";
 
-interface Funcionarios {
+export interface Funcionarios {
     id: string | number;
-    nome?: string;
-    salario?: number;
-    cargo?: string;
-    setor?: string;
-    escolaridade?: string;
-    sexo?: string;
+    nome: string;
+    salario: number;
+    cargo: string;
+    setor: string;
+    escolaridade: string;
+    sexo: string;
+    dataAdmissao: string;
 }
 
 export function Funcionarios() {

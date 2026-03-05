@@ -3,7 +3,8 @@ export const SETORES = [
   { id: 2, nome: "Tecnologia da Informação" },
   { id: 3, nome: "Financeiro" },
   { id: 4, nome: "Comercial" },
-  { id: 5, nome: "Operacional" }
+  { id: 5, nome: "Operacional" },
+  { id: 6, nome: "Marketing" }
 ];
 
 export const CARGOS = [
@@ -11,7 +12,9 @@ export const CARGOS = [
   { id: 2, nome: "Analista" },
   { id: 3, nome: "Coordenador" },
   { id: 4, nome: "Gerente" },
-  { id: 5, nome: "Diretor" }
+  { id: 5, nome: "Diretor" },
+  { id: 6, nome: 'Designer UI/UX' },
+  { id: 7, nome: 'Assistente Administrativo' }
 ];
 
 export const ESCOLARIDADE = [
