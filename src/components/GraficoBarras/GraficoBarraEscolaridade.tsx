@@ -26,10 +26,9 @@ export function GraficoBarraEscolaridade({ funcionarios } : GraficsProps) {
     };
 
     return (
-        <div className="card shadow-sm border-0">
+        <div >
             <div className="card-body">
-            <h5 className="card-title fw-bold">Quantidade de funcionários por grau de escolaridade</h5>
-                <div style={{ width: '1200px', height: '300px' }}>
+                <div style={{ width: '950px', height: '300px' }}>
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 50 }}>
                             <CartesianGrid strokeDasharray="3 3" vertical={false} />

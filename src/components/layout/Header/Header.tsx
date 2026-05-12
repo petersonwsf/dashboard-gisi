@@ -8,7 +8,6 @@ export function Header() {
                 <div>
                     <div className="d-flex">
                         <Link to="/"><button className="btn btn-primary mx-2 fs-5">Funcionários</button></Link>
-                        <Link to="/cadastro"><button className="btn btn-primary mx-2 fs-5">Cadastrar funcionário</button></Link>
                         <Link to="/dashboard" ><button className="btn btn-primary mx-2 fs-5">Dashboard</button></Link>
                     </div>
                 </div>

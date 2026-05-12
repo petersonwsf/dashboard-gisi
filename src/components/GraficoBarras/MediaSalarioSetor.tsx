@@ -18,16 +18,14 @@ export function MediaSalarioSetor({ funcionarios } : GraficsProps) {
     const COLORS = ['#0088FE', '#00C49F', '#2fb81c', '#9628c2', '#8884d8'];
 
     return (
-        <div className="card shadow-sm border-0">
+        <div>
             <div className="card-body">
-            <h5 className="card-title fw-bold">Média Salarial por Setor</h5>
-                <div style={{ width: '500px', height: '300px' }}>
+                <div style={{ width: '950px', height: '300px' }}>
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 50 }}>
                             <CartesianGrid strokeDasharray="3 3" vertical={false} />
                             <XAxis 
                                 dataKey="setor" 
-                                angle={-15} 
                                 textAnchor="end" 
                                 interval={0} 
                                 fontSize={12}

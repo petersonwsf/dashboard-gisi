@@ -1,4 +1,4 @@
-import { PieChart, Pie, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { PieChart, Pie, Tooltip, ResponsiveContainer } from 'recharts';
 import { Funcionarios } from '../../pages/Funcionarios/Funcionarios';
 
 export interface GraficsProps {
@@ -12,9 +12,9 @@ export function Pizza({ funcionarios } : GraficsProps) {
     ];
 
     return (
-        <div style={{height: '300px', width: '500px'}}>
+        <div style={{height: '350px', width: '450px', borderRadius: '20px'}} className='bg-light p-4 shadow'>
             <h5>Quantidade de funcionários por sexo</h5>
-            <ResponsiveContainer>
+            <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                     <Pie
                     data={data}
@@ -26,7 +26,6 @@ export function Pizza({ funcionarios } : GraficsProps) {
                     label={({ name, value }) => `${name}: ${value}`}
                     />
                     <Tooltip />
-                    <Legend />
                 </PieChart>
             </ResponsiveContainer>
         </div>

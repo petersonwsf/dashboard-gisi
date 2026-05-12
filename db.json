@@ -11,16 +11,6 @@
       "dataAdmissao": "2021-03-15"
     },
     {
-      "id": "201",
-      "nome": "Joaninha Alcântara",
-      "salario": 5200,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
-      "escolaridade": "Pós-graduação / Especialização",
-      "sexo": "Feminino",
-      "dataAdmissao": "2022-06-10"
-    },
-    {
       "id": "19",
       "nome": "Maria Eduarda Santos",
       "salario": 3850.75,
@@ -301,16 +291,6 @@
       "dataAdmissao": "2020-03-28"
     },
     {
-      "id": "29",
-      "nome": "Amanda Ribeiro",
-      "salario": 3800,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2022-04-17"
-    },
-    {
       "id": "30",
       "nome": "Daniel Moura",
       "salario": 9800,
@@ -472,13 +452,13 @@
     },
     {
       "id": "46",
-      "nome": "André Pacheco",
-      "salario": 4800,
-      "cargo": "Analista",
-      "setor": "Tecnologia da Informação",
-      "escolaridade": "Ensino Superior Completo",
+      "nome": "Bruno Costa",
+      "salario": 2900,
+      "cargo": "Auxiliar",
+      "setor": "Operacional",
+      "escolaridade": "Ensino Médio Completo",
       "sexo": "Masculino",
-      "dataAdmissao": "2020-05-17"
+      "dataAdmissao": "2023-09-18"
     },
     {
       "id": "47",
@@ -582,13 +562,13 @@
     },
     {
       "id": "57",
-      "nome": "Larissa Nunes",
-      "salario": 3500,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
+      "nome": "Larissa Fernandes",
+      "salario": 4100,
+      "cargo": "Analista",
+      "setor": "Comercial",
       "escolaridade": "Ensino Superior Completo",
       "sexo": "Feminino",
-      "dataAdmissao": "2022-11-11"
+      "dataAdmissao": "2022-11-21"
     },
     {
       "id": "58",
@@ -729,16 +709,6 @@
       "escolaridade": "Ensino Superior Completo",
       "sexo": "Feminino",
       "dataAdmissao": "2021-11-08"
-    },
-    {
-      "id": "72",
-      "nome": "Gabriela Farias",
-      "salario": 3500,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2022-09-03"
     },
     {
       "id": "73",
@@ -979,36 +949,6 @@
       "escolaridade": "Ensino Superior Completo",
       "sexo": "Feminino",
       "dataAdmissao": "2022-03-14"
-    },
-    {
-      "id": "97",
-      "nome": "Bruno Carvalho",
-      "salario": 2600,
-      "cargo": "Auxiliar",
-      "setor": "Operacional",
-      "escolaridade": "Ensino Médio Completo",
-      "sexo": "Masculino",
-      "dataAdmissao": "2023-04-02"
-    },
-    {
-      "id": "98",
-      "nome": "Camila Prado",
-      "salario": 5400,
-      "cargo": "Coordenador",
-      "setor": "Recursos Humanos",
-      "escolaridade": "Pós-graduação / Especialização",
-      "sexo": "Feminino",
-      "dataAdmissao": "2021-08-11"
-    },
-    {
-      "id": "99",
-      "nome": "Diego Lopes",
-      "salario": 9100,
-      "cargo": "Gerente",
-      "setor": "Financeiro",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Masculino",
-      "dataAdmissao": "2019-06-21"
     },
     {
       "id": "100",
@@ -1671,16 +1611,6 @@
       "dataAdmissao": "2023-03-12"
     },
     {
-      "id": "166",
-      "nome": "Anitta Lopes",
-      "salario": 6800,
-      "cargo": "Designer UI/UX",
-      "setor": "Tecnologia da Informação",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2021-08-25"
-    },
-    {
       "id": "167",
       "nome": "Thiaguinho Silva",
       "salario": 8500,
@@ -1811,16 +1741,6 @@
       "dataAdmissao": "2023-12-20"
     },
     {
-      "id": "180",
-      "nome": "Luísa Sonza",
-      "salario": 5300,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2022-05-15"
-    },
-    {
       "id": "181",
       "nome": "Whindersson Nunes",
       "salario": 3100,
@@ -1889,16 +1809,6 @@
       "escolaridade": "Mestrado",
       "sexo": "Masculino",
       "dataAdmissao": "2019-03-22"
-    },
-    {
-      "id": "188",
-      "nome": "Pabllo Vittar",
-      "salario": 5200,
-      "cargo": "Designer UI/UX",
-      "setor": "Tecnologia da Informação",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2022-12-01"
     },
     {
       "id": "189",
@@ -1991,16 +1901,6 @@
       "dataAdmissao": "2024-01-20"
     },
     {
-      "id": "198",
-      "nome": "Duda Beat",
-      "salario": 5500,
-      "cargo": "Designer UI/UX",
-      "setor": "Marketing",
-      "escolaridade": "Ensino Superior Completo",
-      "sexo": "Feminino",
-      "dataAdmissao": "2021-12-12"
-    },
-    {
       "id": "199",
       "nome": "Baco Exu",
       "salario": 7200,
@@ -2021,14 +1921,64 @@
       "dataAdmissao": "2017-09-10"
     },
     {
-      "id": "92e8",
-      "nome": "Adriana Clericuzi",
-      "setor": "Financeiro",
-      "cargo": "Diretor",
-      "salario": 19999.99,
+      "id": "121",
+      "nome": "Carlos Mendes",
+      "salario": 3200,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Masculino",
+      "dataAdmissao": "2022-03-14"
+    },
+    {
+      "id": "122",
+      "nome": "Fernanda Souza",
+      "salario": 4100,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Completo",
       "sexo": "Feminino",
-      "dataAdmissao": "2023-09-10",
-      "escolaridade": "Doutorado"
+      "dataAdmissao": "2021-08-07"
+    },
+    {
+      "id": "123",
+      "nome": "Ricardo Alves",
+      "salario": 3550,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Superior Incompleto",
+      "sexo": "Masculino",
+      "dataAdmissao": "2024-01-22"
+    },
+    {
+      "id": "124",
+      "nome": "Juliana Costa",
+      "salario": 2900,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Ensino Médio Completo",
+      "sexo": "Feminino",
+      "dataAdmissao": "2020-11-30"
+    },
+    {
+      "id": "125",
+      "nome": "Thiago Rocha",
+      "salario": 4400,
+      "cargo": "Assistente Administrativo",
+      "setor": "Recursos Humanos",
+      "escolaridade": "Pós-Graduação",
+      "sexo": "Masculino",
+      "dataAdmissao": "2023-09-05"
+    },
+    {
+      "nome": "Adriana Zenaide Clericuzi",
+      "salario": 19999.99,
+      "cargo": "Gerente",
+      "setor": "Financeiro",
+      "escolaridade": "Doutorado",
+      "sexo": "Feminino",
+      "dataAdmissao": "2024-09-10",
+      "id": "fd22"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

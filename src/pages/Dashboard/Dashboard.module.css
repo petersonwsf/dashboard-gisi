@@ -1,8 +1,14 @@
+.dashboard {
+    margin-bottom: 5rem;
+}
+
 .row {
-    margin-top: 5em;
+    margin-top: 2em;
+    padding: 1em 2em;
+    border-radius: 20px;;
 }
 
 .image {
-    max-width: 50px;
-    margin-right: 10px;
+    max-width: 30px;
+    margin-right: 5px;
 }

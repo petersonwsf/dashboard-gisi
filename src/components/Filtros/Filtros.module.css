@@ -1,0 +1,21 @@
+.filtros::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 2. O fundo da barra (Trilho) */
+.filtros::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+/* 3. A parte que desliza (Polegar/Thumb) */
+.filtros::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /* Cria um efeito de respiro ao redor */
+}
+
+/* 4. Efeito ao passar o mouse */
+.filtros::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

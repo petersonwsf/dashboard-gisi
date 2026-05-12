@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Cadastro } from './pages/Cadastro/Cadastro'
 import { Funcionarios } from './pages/Funcionarios/Funcionarios'
 import { Dashboard } from './pages/Dashboard/Dashboard'
+import Footer from './components/layout/Footer/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
       </Container>
+      <Footer />
     </>
   )
 }

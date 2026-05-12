@@ -29,8 +29,7 @@ export function GraficoLinhasAdmissao({funcionarios} : GraficsProps) {
     const dataGraficoLinha = dadosContratacao()
     
     return (
-        <div style={{ width: '100%', height: '350px' }} className="mt-4">
-            <h5>Número de contratações por ano</h5>
+        <div style={{ width: '100%', height: '300px' }} >
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={dataGraficoLinha} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} />

@@ -5,7 +5,6 @@ import { api } from '../../config/api/api'
 import { Pizza } from '../../components/Pizza/Pizza'
 import { MediaSalarioSetor } from '../../components/GraficoBarras/MediaSalarioSetor'
 import { Card } from '../../components/Card/Card'
-import { maskCurrency } from '../../utils/maskCurrency'
 
 import dinheiro_image from '../../assets/imgs/dinheiro.webp'
 import person from '../../assets/imgs/person.png'
@@ -16,13 +15,13 @@ import { calcularTempoMedioCasa, formatarTempo } from '../../utils/tempoMedio'
 import { GraficoLinhasAdmissao } from '../../components/GraficosLinhaAdmissao/GraficoLinhasAdmissao'
 import { GraficoBarraEscolaridade } from '../../components/GraficoBarras/GraficoBarraEscolaridade'
 import { GraficoCargoPizza } from '../../components/GraaficoPizzaCargo/GraficoCargoPizza'
-import { CARGOS, ESCOLARIDADE, SETORES } from '../../assets/consts/consts'
+import Filtros from '../../components/Filtros/Filtros'
 
 interface Filtros {
-    sexo?: string;
-    escolaridade?: string;
-    cargo?: string;
-    setor?: string;
+    sexo?: string[];
+    escolaridade?: string[];
+    cargo?: string[];
+    setor?: string[];
 }
 
 export function Dashboard() {
@@ -33,40 +32,41 @@ export function Dashboard() {
     const [custoTotal, setCustoTotal] = useState<number>(0)
 
     const [filtros, setFiltros] = useState<Filtros>({
-        sexo: '',
-        escolaridade: '',
-        cargo: '',
-        setor: ''
+        sexo: [],
+        escolaridade: [],
+        cargo: [],
+        setor: []
     })
 
     const [tempoMedio, setTempoMedio] = useState<number>(0)
 
     useEffect(() => {
         const fetch = async () => {
-            const params = {} as any
 
-            if (filtros.escolaridade) params.escolaridade = filtros.escolaridade
-            if (filtros.setor) params.setor = filtros.setor
-            if (filtros.cargo) params.cargo = filtros.cargo
-            if (filtros.sexo) params.sexo = filtros.sexo
+            const response = await api.get(`/funcionarios`)
 
-            const response = await api.get(`/funcionarios`, { params })
-            console.log(response.data)
-            setFuncionarios(response.data)
+            const filtrado = response.data.filter((f: Funcionarios) => {
+                return Object.entries(filtros).every(([key, values]) => {
+                    if (!values || values.length === 0) return true
+                    return values.includes(f[key as keyof Funcionarios])
+                })
+            })
 
-            const somaSalarios = response.data?.reduce((acc, curr) => acc + curr.salario, 0);
-            const media = somaSalarios! / response.data!.length;
+            setFuncionarios(filtrado)
+
+            const somaSalarios = filtrado.reduce((acc, curr) => acc + curr.salario, 0);
+            const media = somaSalarios / filtrado.length;
             setMediaSalario(media || 0)
 
-            const funcionarioTop = response.data?.reduce((prev, current) => {
+            const funcionarioTop = filtrado.reduce((prev, current) => {
                 return (prev?.salario ?? 0) > (current?.salario ?? 0) ? prev : current;
-            }, funcionarios[0]);
+            }, filtrado[0]);
 
             setFuncionarioMaiorSalario(funcionarioTop)
 
-            setTempoMedio(calcularTempoMedioCasa(response.data as Funcionarios[]))
+            setTempoMedio(calcularTempoMedioCasa(filtrado))
 
-            const custoTotal = response.data?.reduce((acc, f) => acc + (f.salario || 0), 0);
+            const custoTotal = filtrado.reduce((acc, f) => acc + (f.salario || 0), 0);
             setCustoTotal(custoTotal)
         }
         fetch()
@@ -75,106 +75,86 @@ export function Dashboard() {
     return (
         <div className={styles.dashboard}>
             <h1><span className='text-primary'>G</span>I<span className='text-primary'>S</span>I Dashboard</h1>
-            <div className='d-flex my-3 justify-content-between gap-3 shadow px-4 py-3'>
-                <div className='w-100'>
-                    <h6>Sexo</h6>
-                    <select className="form-select" onChange={(e) => setFiltros({...filtros, sexo: e.target.value === 'default' ? undefined : e.target.value})} aria-label="Default select example">
-                        <option value="default">Padrão</option>
-                        <option value="Masculino">Masculino</option>
-                        <option value="Feminino">Feminino</option>
-                    </select>
-                </div>
-                <div className='w-100'>
-                    <h6>Cargo</h6>
-                    <select className="form-select" onChange={(e) => setFiltros({...filtros, cargo: e.target.value === 'default' ? undefined : e.target.value})} aria-label="Default select example">
-                        <option value="default">Padrão</option>
-                        {CARGOS.map(cargo => (
-                            <option value={cargo.nome}>{cargo.nome}</option>
-                        ))}
-                    </select>
-                </div>
-                <div className='w-100'>
-                    <h6>Setor</h6>
-                    <select className="form-select" onChange={(e) => setFiltros({...filtros, setor: e.target.value === 'default' ? undefined : e.target.value})} aria-label="Default select example">
-                        <option value="default">Padrão</option>
-                        {SETORES.map(setor => (
-                            <option value={setor.nome}>{setor.nome}</option>
-                        ))}
-                    </select>
-                </div>
-                <div className='w-100'>
-                    <h6>Escolaridade</h6>
-                    <select className="form-select" onChange={(e) => setFiltros({...filtros, escolaridade: e.target.value === 'default' ? undefined : e.target.value})} aria-label="Default select example">
-                        <option value="default">Padrão</option>
-                        {ESCOLARIDADE.map(escolaridade => (
-                            <option value={escolaridade.nome}>{escolaridade.nome}</option>
-                        ))}
-                    </select>
-                </div>
-            </div>
-            <div className="d-flex mt-5 gap-3 justify-content-between">
-                <Card title='Média de salário dos funcionários' value={`R$ ${
-                    new Intl.NumberFormat('pt-BR', {
-                        minimumFractionDigits: 2,
-                        maximumFractionDigits: 2
-                    }).format(mediaSalario)}`} image={dinheiro_image}/>
-                <Card title='Número de funcionários' value={funcionarios.length} image={person}/>
-                <Card title='Custo mensal da folha' value={`R$ ${
-                    new Intl.NumberFormat('pt-BR', {
-                        minimumFractionDigits: 2,
-                        maximumFractionDigits: 2
-                    }).format(custoTotal)}`} image={dinheiro_image}/>
-                <div className="card shadow border-0" style={{minHeight: '200px', minWidth: '350px'}}>
-                    <div className="card-body">
-                        {funcionarioMaiorSalario &&
-                        <>
-                            <div className="d-flex g-3 align-items-center">
-                                <img src={maior_salario} alt="Imagem" className={styles.image}/>
-                                <h5 className="card-title fw-bold mt-3 w-100 text-center">Maior salário</h5>
+            <div className="d-flex gap-3 align-items-start">
+                <Filtros filtros={filtros} setFiltros={setFiltros} />
+                <div>
+                    <div className="d-flex justify-content-between flex-wrap gap-2 ">
+                        <Card title='Média salarial' value={`R$ ${
+                            new Intl.NumberFormat('pt-BR', {
+                                minimumFractionDigits: 2,
+                                maximumFractionDigits: 2
+                            }).format(mediaSalario)}`} image={dinheiro_image}/>
+                        <Card title='Número de funcionários' value={funcionarios.length} image={person}/>
+                        <Card title='Custo mensal' value={`R$ ${
+                            new Intl.NumberFormat('pt-BR', {
+                                minimumFractionDigits: 2,
+                                maximumFractionDigits: 2
+                            }).format(custoTotal)}`} image={dinheiro_image}/>
+                        <div className="card shadow border-0 bg-light" style={{width: '230px'}}>
+                            <div className="card-body">
+                                {funcionarioMaiorSalario &&
+                                <>
+                                    <div className="d-flex align-items-center">
+                                        <img src={maior_salario} alt="Imagem" className={styles.image}/>
+                                        <h5 className="card-title mt-3 w-100 text-center">Maior salário</h5>
+                                    </div>
+                                    <div className="d-flex flex-column justify-content-start mt-3 h-50">
+                                        <h6>Nome: {funcionarioMaiorSalario.nome}</h6>
+                                        <h6>Setor: {funcionarioMaiorSalario.setor}</h6>
+                                        <h6>Cargo: {funcionarioMaiorSalario.cargo}</h6>
+                                        <h6>Salário: {`R$ ${
+                                            new Intl.NumberFormat('pt-BR', {
+                                                minimumFractionDigits: 2,
+                                                maximumFractionDigits: 2
+                                            }).format(funcionarioMaiorSalario.salario)}`}
+                                        </h6>
+                                    </div>
+                                </>
+                                }
                             </div>
-                            <div className="d-flex flex-column justify-content-start mt-3 h-50">
-                                <h6>Nome: {funcionarioMaiorSalario.nome}</h6>
-                                <h6>Setor: {funcionarioMaiorSalario.setor}</h6>
-                                <h6>Cargo: {funcionarioMaiorSalario.cargo}</h6>
-                                <h6>Salário: {`R$ ${
-                                    new Intl.NumberFormat('pt-BR', {
-                                        minimumFractionDigits: 2,
-                                        maximumFractionDigits: 2
-                                    }).format(funcionarioMaiorSalario.salario)}`}
-                                </h6>
+                        </div>
+                    </div>
+                    <div className={`${styles.row} shadow bg-light`}>
+                        <h5 className='fw-bold mb-3'>Média salarial por setor</h5>
+                        <div className="d-flex justify-content-between">
+                            <MediaSalarioSetor funcionarios={funcionarios}/>
+                        </div>
+                    </div>
+                    <div className={`${styles.row} shadow bg-light`}>
+                        <h5 className='fw-bold mb-3'>Distribuição por escolaridade</h5>
+                        <div className="d-flex">
+                            <GraficoBarraEscolaridade funcionarios={funcionarios}/>
+                        </div>
+                    </div>
+                    <div className={styles.row}>
+                        <div className="d-flex justify-content-between flex-wrap">
+                            <Pizza funcionarios={funcionarios}/>
+                            <GraficoCargoPizza funcionarios={funcionarios} />
+                        </div>
+                    </div>
+                    <div className={`${styles.row} shadow bg-light`}>
+                        <h5 className='fw-bold mb-3'>Contratações por ano</h5>
+                        <div className="d-flex justify-content-between">
+                            {funcionarios && (
+                                <>
+                                    <GraficoLinhasAdmissao funcionarios={funcionarios}/>
+                                </>
+                            )}
+                        </div>
+                    </div>
+                    <div className={`${styles.row} d-flex justify-content-center `}>
+                        <div className="card shadow border-0 bg-light" style={{width: '450px', height: '250px'}}>
+                            <div className='d-flex justify-content-center align-items-center'>
+                                <img src={relogio} alt="Relógio" className={styles.image} />
+                                <h5 className='fw-bold my-3'>Tempo médio de empresa</h5>
                             </div>
-                        </>
-                        }
+                            <div className='d-flex justify-content-center align-items-center h-75'>
+                                <h4>{formatarTempo(tempoMedio)}</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className={styles.row}>
-                <div className="d-flex justify-content-between">
-                    <Pizza funcionarios={funcionarios}/>
-                    <MediaSalarioSetor funcionarios={funcionarios}/>
-                </div>
-            </div>
-            <div className={styles.row}>
-                <div className="d-flex justify-content-between gap-5">
-                    <Card title='Tempo médio dos funcionários na empresa' value={formatarTempo(tempoMedio)} image={relogio}/>
-                    {funcionarios && (
-                        <>
-                            <GraficoLinhasAdmissao funcionarios={funcionarios}/>
-                        </>
-                    )}
-                </div>
-            </div>
-            <div className={styles.row}>
-                <div className="d-flex gap-5">
-                    <GraficoBarraEscolaridade funcionarios={funcionarios}/>
-                </div>
-            </div>
-            <div className='my-5'>
-                <div className="d-flex w-100 justify-content-center">
-                    <GraficoCargoPizza funcionarios={funcionarios} />
-                </div>
-            </div>
-            <br /><br />
         </div>
     )
 }
