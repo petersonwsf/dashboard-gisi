@@ -54,11 +54,11 @@ export function Dashboard() {
 
             setFuncionarios(filtrado)
 
-            const somaSalarios = filtrado.reduce((acc, curr) => acc + curr.salario, 0);
+            const somaSalarios = filtrado.reduce((acc : number, curr: Funcionarios) => acc + curr.salario, 0);
             const media = somaSalarios / filtrado.length;
             setMediaSalario(media || 0)
 
-            const funcionarioTop = filtrado.reduce((prev, current) => {
+            const funcionarioTop = filtrado.reduce((prev : Funcionarios, current : Funcionarios) => {
                 return (prev?.salario ?? 0) > (current?.salario ?? 0) ? prev : current;
             }, filtrado[0]);
 
@@ -66,7 +66,7 @@ export function Dashboard() {
 
             setTempoMedio(calcularTempoMedioCasa(filtrado))
 
-            const custoTotal = filtrado.reduce((acc, f) => acc + (f.salario || 0), 0);
+            const custoTotal = filtrado.reduce((acc : number, f: Funcionarios) => acc + (f.salario || 0), 0);
             setCustoTotal(custoTotal)
         }
         fetch()

@@ -42,7 +42,7 @@ export function MediaSalarioSetor({ funcionarios } : GraficsProps) {
                                 }}
                             />
                             <Bar dataKey="media" radius={[4, 4, 0, 0]}>
-                                {data.map((entry, index) => (
+                                {data.map((_, index) => (
                                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                 ))}
                             </Bar>

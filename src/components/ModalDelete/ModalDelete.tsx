@@ -1,13 +1,14 @@
+import type { Dispatch, SetStateAction } from "react"
 import { api } from "../../config/api/api"
 import { handleAlertMessage } from "../../utils/handleAlertMessage"
 
-export default function ModalDelete({ id, setReload } : {id: number | string | null, setReload: (value: boolean) => void}) {
+export default function ModalDelete({ id, setReload } : {id: number | string | null, setReload: Dispatch<SetStateAction<boolean>>}) {
 
     async function deleteFuncionario() {
         try {
             await api.delete(`/funcionarios/${id}`)
             handleAlertMessage('Funcionário deletado com sucesso!', 'success')
-            setReload(prev => !prev)
+            setReload((prev : boolean) => !prev)
         } catch (error) {
             console.log(error)
             handleAlertMessage('Erro ao deletar funcionário', 'error')

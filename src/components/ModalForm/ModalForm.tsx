@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { CARGOS, ESCOLARIDADE, SETORES } from "../../assets/consts/consts"
 import { maskCurrency, unmaskCurrency } from "../../utils/maskCurrency"
 import { handleAlertMessage } from "../../utils/handleAlertMessage"
+import { type Dispatch, type SetStateAction } from "react"
 
 interface Funcionario {
     nome?: string;
@@ -14,7 +15,7 @@ interface Funcionario {
     dataAdmissao?: string;
 }
 
-export default function ModalForm({ setReload, id, setId } : {setReload: (reload: boolean) => void, id?: number | string | null, setId: (id: number | string | null) => void}) {
+export default function ModalForm({ setReload, id, setId } : {setReload: Dispatch<SetStateAction<boolean>>, id?: number | string | null, setId: (id: number | string | null) => void}) {
 
     const [funcionario, setFuncionario] = useState<Funcionario>({})
 
@@ -25,7 +26,7 @@ export default function ModalForm({ setReload, id, setId } : {setReload: (reload
                 handleAlertMessage('Funcionário editado com sucesso!', 'success')
                 setFuncionario({})
                 setId(null)
-                setReload(prev => !prev)
+                setReload((prev : boolean) => !prev)
             } catch (error : any) {
                 console.log(error)
                 handleAlertMessage('Erro ao editar usuário', 'error')
@@ -36,7 +37,7 @@ export default function ModalForm({ setReload, id, setId } : {setReload: (reload
                 handleAlertMessage('Funcionário cadastrado com sucesso!', 'success')
                 setFuncionario({})
                 setId(null)
-                setReload(prev => !prev)
+                setReload((prev : boolean) => !prev)
             } catch (error : any) {
                 console.log(error)
                 handleAlertMessage('Erro ao cadastrar usuário', 'error')

@@ -1,6 +1,5 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import type { GraficsProps } from "../Pizza/Pizza";
-import { useState } from 'react';
 
 export function GraficoLinhasAdmissao({funcionarios} : GraficsProps) {
     
