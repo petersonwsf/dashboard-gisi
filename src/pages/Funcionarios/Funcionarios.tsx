@@ -26,7 +26,7 @@ export function Funcionarios() {
 
     useEffect(() => {
         const fetchFuncionarios = async () => {
-            const response = await api.get(`/funcionarios?_page=${page}&_sort=id&_order=desc`)
+            const response = await api.get(`funcionarios?_page=${page}&_sort=id&_order=desc`)
             setInfos(response.data)
             setFuncionarios(response.data);
         }

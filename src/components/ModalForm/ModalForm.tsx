@@ -51,7 +51,7 @@ export default function ModalForm({ setReload, id, setId } : {setReload: (reload
         const fetchFuncionario = async () => {
             if (id) {
                 try {
-                    const response = await api.get(`/funcionarios/${id}`)
+                    const response = await api.get(`/api/funcionarios/${id}`)
                     const data = response.data
                     setFuncionario({
                         nome: data.nome,
