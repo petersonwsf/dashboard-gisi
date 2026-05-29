@@ -21,7 +21,7 @@ export function AiConsultation() {
   const recognitionRef = useRef<any>(null)
 
   useEffect(() => {
-    const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
     if (!SpeechRecognition) {
       handleAlertMessage('Navegador não suporta gravação de áudio', 'error')
