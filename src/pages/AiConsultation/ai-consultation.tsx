@@ -4,6 +4,8 @@ import { api } from '../../config/api/api'
 import { queryAiModel } from '../../utils/aiQuery'
 import { Funcionarios } from '../Funcionarios/Funcionarios'
 import { handleAlertMessage } from '../../utils/handleAlertMessage'
+import { FaMicrophone } from "react-icons/fa";
+
 
 interface SpeechRecognitionEvent extends Event {
   results: SpeechRecognitionResultList
@@ -144,13 +146,12 @@ export function AiConsultation() {
             </button>
             <button
               type="button"
-              className={`btn ${recording ? 'btn-danger' : 'btn-outline-secondary'}`}
+              className={`btn d-flex align-items-center justify-content-center ${recording ? 'btn-danger' : 'btn-outline-secondary'} ${styles.recordButton} ${recording ? styles.recordButtonPulsing : ''}`}
               onClick={toggleRecording}
               disabled={loading}
-              title="Clique para gravar ou parar"
+              title={recording ? 'Clique para parar a gravação' : 'Clique para gravar áudio'}
             >
-              <i className={`bi bi-${recording ? 'stop-circle-fill' : 'mic'}`}></i>
-              {recording ? ' Parando...' : ' Gravar Áudio'}
+              <FaMicrophone size={20} />
             </button>
           </div>
         </form>

@@ -1,7 +1,7 @@
 import { Funcionarios } from '../pages/Funcionarios/Funcionarios'
 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent'
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
 
 export async function queryAiModel(question: string, funcionarios: Funcionarios[]): Promise<string> {
   if (!GEMINI_API_KEY) {
