@@ -38,7 +38,7 @@ export function AiPieChart({ data, nameKey, dataKey, title, colors = DEFAULT_COL
               innerRadius={60}
               outerRadius={90}
               paddingAngle={3}
-              label={({ name, value, percentage }) => `${name}: ${value} (${percentage})`}
+              label={({ name, value, percent }) => `${name}: ${value} (${((percent ?? 0) * 100).toFixed(0)}%)`}
             >
               {dataWithPercentage.map((_, index) => (
                 <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
