@@ -1,123 +1,230 @@
 .container {
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 .container h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   letter-spacing: -0.5px;
 }
 
-.card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  padding: 30px;
+.chatWrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   border: 1px solid #e9ecef;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  overflow: hidden;
 }
 
-.card label {
-  color: #333;
+.chatArea {
+  flex-grow: 1;
+  padding: 24px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.messageWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.userWrapper {
+  justify-content: flex-end;
+}
+
+.aiWrapper {
+  justify-content: flex-start;
+}
+
+.messageBubble {
+  max-width: 80%;
+  padding: 14px 18px 24px 18px; /* padding at bottom for timestamp */
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.userBubble {
+  background: #0d6efd;
+  color: #ffffff;
+  border-radius: 16px 16px 4px 16px;
+}
+
+.aiBubble {
+  background: #ffffff;
+  color: #212529;
+  border-radius: 16px 16px 16px 4px;
+  border: 1px solid #e9ecef;
+  width: 100%; /* allows charts to spread properly up to max-width */
+}
+
+.textPart {
+  word-wrap: break-word;
   font-size: 0.95rem;
-  margin-bottom: 10px;
+  line-height: 1.55;
 }
 
-.card textarea {
+.textPart p {
+  margin: 0;
+}
+
+.timestamp {
+  position: absolute;
+  bottom: 6px;
+  right: 12px;
+  font-size: 0.72rem;
+  opacity: 0.7;
+}
+
+.userBubble .timestamp {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.aiBubble .timestamp {
+  color: #6c757d;
+}
+
+.loadingBubble {
+  padding: 14px 20px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Typing Indicator Animation */
+.typingIndicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.typingIndicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #6c757d;
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.typingIndicator span:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.typingIndicator span:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 40% { 
+    transform: scale(1.0);
+  }
+}
+
+/* Input Area Styling */
+.inputArea {
+  padding: 16px 24px;
+  background: #ffffff;
+  border-top: 1px solid #e9ecef;
+}
+
+.inputArea textarea {
   border-radius: 8px;
   border: 1px solid #dee2e6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.95rem;
-  padding: 12px 15px;
+  padding: 10px 14px;
   transition: all 0.2s ease;
+  line-height: 1.4;
+  height: 42px; /* Fixed height for single line chat entry */
+  overflow-y: hidden;
 }
 
-.card textarea:focus {
+.inputArea textarea:focus {
   border-color: #0d6efd;
-  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.1);
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
 }
 
-.card textarea:disabled {
+.inputArea textarea:disabled {
   background-color: #f8f9fa;
   cursor: not-allowed;
 }
 
-.responseSection {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  border-left: 4px solid #0d6efd;
-}
-
-.responseContent {
-  background: #fff;
-  padding: 18px;
-  border-radius: 6px;
-  line-height: 1.6;
-  color: #555;
-  max-height: 500px;
-  overflow-y: auto;
-}
-
-.responseContent p {
-  word-wrap: break-word;
-  margin: 0;
-}
-
-.emptyState {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 150px;
-  color: #999;
-}
-
 .recordButton {
-  position: relative;
-  font-size: 1.2rem;
-  padding: 8px 16px;
-  min-width: 45px;
+  border-radius: 8px;
+  width: 45px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.recordButton i {
-  font-size: 1.3rem;
+  transition: all 0.2s ease;
 }
 
 .recordButtonPulsing {
   animation: pulse 1.5s ease-in-out infinite;
+  color: #fff !important;
 }
 
 @keyframes pulse {
   0% {
     opacity: 1;
     transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.4);
   }
-  50% {
-    opacity: 0.7;
+  70% {
+    opacity: 0.8;
     transform: scale(1.05);
+    box-shadow: 0 0 0 8px rgba(220, 53, 69, 0);
   }
   100% {
     opacity: 1;
     transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
   }
 }
 
-@media (max-width: 576px) {
-  .card {
-    padding: 20px;
+/* Custom Scrollbar for Chat Area */
+.chatArea::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatArea::-webkit-scrollbar-track {
+  background: #f8f9fa;
+}
+
+.chatArea::-webkit-scrollbar-thumb {
+  background: #dee2e6;
+  border-radius: 3px;
+}
+
+.chatArea::-webkit-scrollbar-thumb:hover {
+  background: #ced4da;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .chatWrapper {
+    height: 550px;
+  }
+  
+  .messageBubble {
+    max-width: 90%;
   }
 
-  .container h1 {
-    font-size: 1.5rem;
-  }
-
-  .d-flex {
-    flex-direction: column;
+  .inputArea {
+    padding: 12px 16px;
   }
 }
